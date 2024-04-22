@@ -1,41 +1,37 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 
-class Mahasiswa{
-public: //akses modifer
+class Mahasiswa {
+public: // akses modedifier 
 	string nama;
 	int umur;
 	string jurusan;
 
-	void output (){
-		cout << "Nama:" << nama << endl;
-		cout << "Umur:" << umur << endl;
-		cout << "Jurusan:" << jurusan << endl;
+	void output() {
+		cout << "nama: " << nama << endl;
+		cout << "umur: " << nama << endl;
+		cout << "jurusan: " << nama << endl;
 	}
-
 };
 
-
-class Matakuliah {
+class matakuliah {
 private:
-	string kodeMK;
-	string namaMK;
+	string kodemk;
+	string namamk;
 	int sks;
 public:
 	void input() {
-		cout << "KodeMK: ";
-		cin >> kodeMK;
-		cout << "NamaMK";
-		cin >> namaMK;
-		cout << "SKS";
+		cout << "kode mk: ";
+		cin >> kodemk;
+		cout << "nama mk; ";
+		cin >> namamk;
+		cout << "sks: ";
 		cin >> sks;
 	}
 	void output() {
 		cout << "kode mk: " << kodemk << endl;
 		cout << "nama mk: " << kodemk << endl;
 		cout << "sks " << kodemk << endl;
-
-	
 	}
 };
 
