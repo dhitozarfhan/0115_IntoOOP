@@ -25,6 +25,9 @@ public :
 	void input() {
 		cout << "KodeMK: ";
 		cin >> kodeMK;
+		cout << "NamaMK";
+		cin >> namaMK;
+		cout << "Sks"
 
 	}
 };
