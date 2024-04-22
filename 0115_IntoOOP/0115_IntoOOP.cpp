@@ -2,5 +2,5 @@
 using namespace std;
 
 class Mahasiwa {
-public: //akses
+public: //akses modifer
 };
