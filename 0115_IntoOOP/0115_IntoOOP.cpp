@@ -1,7 +1,7 @@
 #include <iostream> 
 using namespace std;
 
-class Mahasiwa {
+class Mahasiswa{
 public: //akses modifer
 	string nama;
 	int umur;
@@ -13,4 +13,12 @@ public: //akses modifer
 		cout << "Jurusan:" << jurusan << endl;
 	}
 
+};
+
+
+class Matakuliah {
+private:
+	string kodeMK;
+	string namaMK;
+	int sks;
 };
