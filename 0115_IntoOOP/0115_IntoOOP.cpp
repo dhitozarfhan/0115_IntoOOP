@@ -24,6 +24,7 @@ private:
 public : 
 	void input() {
 		cout << "KodeMK: ";
+		cin >> kodeMK;
 
 	}
 };
