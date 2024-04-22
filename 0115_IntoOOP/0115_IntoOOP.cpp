@@ -33,6 +33,7 @@ public:
 	void output() {
 		cout << "kode mk: " << kodemk << endl;
 		cout << "nama mk: " << kodemk << endl;
+		cout << "sks " << kodemk << endl;
 
 	
 	}
