@@ -27,13 +27,19 @@ public:
 		cin >> kodeMK;
 		cout << "NamaMK";
 		cin >> namaMK;
-		cout << "Sks";
+		cout << "SKS";
 		cin >> sks;
-
-	};
-};
-
-void output() {
+	}
+	void output() {
+		cout << "kode mk: " << kodemk << endl;
 	
 	}
+};
+
+
+	
+
+
+	
+
 
