@@ -21,7 +21,7 @@ private:
 	string kodeMK;
 	string namaMK;
 	int sks;
-public : 
+public:
 	void input() {
 		cout << "KodeMK: ";
 		cin >> kodeMK;
@@ -30,5 +30,10 @@ public :
 		cout << "Sks";
 		cin >> sks;
 
-	}
+	};
 };
+
+void output() {
+	
+	}
+
